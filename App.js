@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import AddNewTip from './Screens/WaterSaver/AddNewTip';
-import WaterComments from './Screens/WaterSaver/waterComments';
+import WaterComments from './Screens/WaterSaver/WaterComments';
 import WaterSaverCategories from './Screens/WaterSaver/WaterSaverCategories';
 import WaterSaverHome from './Screens/WaterSaver/WaterSaverHome';
 import WaterSavingTips from './Screens/WaterSaver/WaterSavingTips';

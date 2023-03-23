@@ -93,7 +93,7 @@ const WaterSavingTips = () => {
       <TouchableOpacity onPress={() => navigation.navigate('WaterSaverHome')}>
         <View style={styles.imgBackView}>
           <Image
-            source={require('../../assets/waterSaver/back.png')}
+            source={require('../../assets/WaterSaver/back.png')}
             style={styles.imgBack}
           />
         </View>

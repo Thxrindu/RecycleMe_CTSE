@@ -110,7 +110,7 @@ function AddNewTip() {
             }}>
                 Add New Tip
             </Text>
-            <Image source={require('../../assets/waterSaver/addIcon.png')} style={styles.img} />
+            {/* <Image source={require('../../assets/waterSaver/addIcon.png')} style={styles.img} /> */}
             <View style={styles.row}>
                 <View style={styles[`2col`]}>
                     <Text style={styles.texts}> Title :</Text>

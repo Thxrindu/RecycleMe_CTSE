@@ -31,7 +31,7 @@ function WaterSaverCategories() {
             }}>
                 Categories
             </Text>
-            <Image source={require('../../assets/waterSaver/categories.png')} style={styles.img} />
+            <Image source={require('../../assets/WaterSaver/categories.png')} style={styles.img} />
 
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("WaterSavingTips")}>
                 <Text style={styles.text}>DOMESTIC IDEAS</Text>

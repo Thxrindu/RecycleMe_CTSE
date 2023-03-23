@@ -11,7 +11,7 @@ import {
 } from 'react-native'
 import React, { useState, useEffect } from 'react'
 import { firebase } from '../../config'
-import { Image } from 'expo-image'
+import { Image } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { FontAwesome } from '@expo/vector-icons'
 
@@ -22,10 +22,10 @@ const WaterSaverHome = () => {
     <View style={styles.MainContainer}>
       <TouchableOpacity onPress={() => navigation.navigate('')}>
         <View style={styles.imgBackView}>
-          <Image
+          {/* <Image
             source={require('../../assets/waterSaver/back.png')}
             style={styles.imgBack}
-          />
+          /> */}
         </View>
       </TouchableOpacity>
       <Text
@@ -37,10 +37,10 @@ const WaterSaverHome = () => {
       >
         Water Saver
       </Text>
-      <Image
+      {/* <Image
         source={require('../../assets/waterSaver/water_icon.png')}
         style={styles.img}
-      />
+      /> */}
 
       <TouchableOpacity
         style={styles.button}
